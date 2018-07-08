@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B5FC77A20F1E47C00402DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5FC77920F1E47C00402DFD /* AppDelegate.swift */; };
+		9B5FC77C20F1E47C00402DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5FC77B20F1E47C00402DFD /* ViewController.swift */; };
+		9B5FC77F20F1E47C00402DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5FC77D20F1E47C00402DFD /* Main.storyboard */; };
+		9B5FC78220F1E47C00402DFD /* BitcoinTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B5FC78020F1E47C00402DFD /* BitcoinTracker.xcdatamodeld */; };
+		9B5FC78420F1E47D00402DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5FC78320F1E47D00402DFD /* Assets.xcassets */; };
+		9B5FC78720F1E47D00402DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5FC78520F1E47D00402DFD /* LaunchScreen.storyboard */; };
+		9B5FC78F20F1E97500402DFD /* BitcoinTrackerUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5FC78E20F1E97500402DFD /* BitcoinTrackerUIViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B5FC77620F1E47C00402DFD /* BitcoinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5FC77920F1E47C00402DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B5FC77B20F1E47C00402DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B5FC77E20F1E47C00402DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B5FC78120F1E47C00402DFD /* BitcoinTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitcoinTracker.xcdatamodel; sourceTree = "<group>"; };
+		9B5FC78320F1E47D00402DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5FC78620F1E47D00402DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B5FC78820F1E47D00402DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5FC78E20F1E97500402DFD /* BitcoinTrackerUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinTrackerUIViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B5FC77320F1E47C00402DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B5FC76D20F1E47C00402DFD = {
+			isa = PBXGroup;
+			children = (
+				9B5FC77820F1E47C00402DFD /* BitcoinTracker */,
+				9B5FC77720F1E47C00402DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B5FC77720F1E47C00402DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5FC77620F1E47C00402DFD /* BitcoinTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5FC77820F1E47C00402DFD /* BitcoinTracker */ = {
+			isa = PBXGroup;
+			children = (
+				9B5FC77920F1E47C00402DFD /* AppDelegate.swift */,
+				9B5FC77B20F1E47C00402DFD /* ViewController.swift */,
+				9B5FC77D20F1E47C00402DFD /* Main.storyboard */,
+				9B5FC78320F1E47D00402DFD /* Assets.xcassets */,
+				9B5FC78520F1E47D00402DFD /* LaunchScreen.storyboard */,
+				9B5FC78820F1E47D00402DFD /* Info.plist */,
+				9B5FC78020F1E47C00402DFD /* BitcoinTracker.xcdatamodeld */,
+				9B5FC78E20F1E97500402DFD /* BitcoinTrackerUIViewController.swift */,
+			);
+			path = BitcoinTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B5FC77520F1E47C00402DFD /* BitcoinTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5FC78B20F1E47D00402DFD /* Build configuration list for PBXNativeTarget "BitcoinTracker" */;
+			buildPhases = (
+				9B5FC77220F1E47C00402DFD /* Sources */,
+				9B5FC77320F1E47C00402DFD /* Frameworks */,
+				9B5FC77420F1E47C00402DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitcoinTracker;
+			productName = BitcoinTracker;
+			productReference = 9B5FC77620F1E47C00402DFD /* BitcoinTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5FC76E20F1E47C00402DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Devinline;
+				TargetAttributes = {
+					9B5FC77520F1E47C00402DFD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B5FC77120F1E47C00402DFD /* Build configuration list for PBXProject "BitcoinTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B5FC76D20F1E47C00402DFD;
+			productRefGroup = 9B5FC77720F1E47C00402DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5FC77520F1E47C00402DFD /* BitcoinTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B5FC77420F1E47C00402DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5FC78720F1E47D00402DFD /* LaunchScreen.storyboard in Resources */,
+				9B5FC78420F1E47D00402DFD /* Assets.xcassets in Resources */,
+				9B5FC77F20F1E47C00402DFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5FC77220F1E47C00402DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5FC78F20F1E97500402DFD /* BitcoinTrackerUIViewController.swift in Sources */,
+				9B5FC78220F1E47C00402DFD /* BitcoinTracker.xcdatamodeld in Sources */,
+				9B5FC77C20F1E47C00402DFD /* ViewController.swift in Sources */,
+				9B5FC77A20F1E47C00402DFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B5FC77D20F1E47C00402DFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5FC77E20F1E47C00402DFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5FC78520F1E47D00402DFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5FC78620F1E47D00402DFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B5FC78920F1E47D00402DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B5FC78A20F1E47D00402DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5FC78C20F1E47D00402DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27ASF94LL8;
+				INFOPLIST_FILE = BitcoinTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.devinline.coom.BitcoinTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B5FC78D20F1E47D00402DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27ASF94LL8;
+				INFOPLIST_FILE = BitcoinTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.devinline.coom.BitcoinTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B5FC77120F1E47C00402DFD /* Build configuration list for PBXProject "BitcoinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5FC78920F1E47D00402DFD /* Debug */,
+				9B5FC78A20F1E47D00402DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5FC78B20F1E47D00402DFD /* Build configuration list for PBXNativeTarget "BitcoinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5FC78C20F1E47D00402DFD /* Debug */,
+				9B5FC78D20F1E47D00402DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B5FC78020F1E47C00402DFD /* BitcoinTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B5FC78120F1E47C00402DFD /* BitcoinTracker.xcdatamodel */,
+			);
+			currentVersion = 9B5FC78120F1E47C00402DFD /* BitcoinTracker.xcdatamodel */;
+			path = BitcoinTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B5FC76E20F1E47C00402DFD /* Project object */;
+}
