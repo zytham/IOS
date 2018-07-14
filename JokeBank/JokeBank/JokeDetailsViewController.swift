@@ -15,6 +15,8 @@ class JokeDetailsViewController: UIViewController {
         super.viewDidLoad()
         title = joke.title
         jokeQ.text = joke.text
+        jokeQ.lineBreakMode = .byWordWrapping // or NSLineBreakMode.ByWordWrapping
+        jokeQ.numberOfLines = 0
     }
 
     override func didReceiveMemoryWarning() {
